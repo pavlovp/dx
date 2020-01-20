@@ -1,0 +1,26 @@
+{
+  "name": "custom-data-source-devextreme-data-grid",
+  "description": "For consuming data from a data source, which is not supported by the DevExtreme data layer out of the box, the DataGrid uses the CustomStore. To load data, the CustomStore needs the load function that you should implement by yourself. Note that this store can be declared explicitly or in the DataSource configuration object.\n",
+  "dependencies": {
+    "whatwg-fetch": "2.0.4",
+    "react-dom": "16",
+    "react": "16",
+    "quill": "1.3.7",
+    "prop-types": "latest",
+    "jszip": "3.1.3",
+    "devextreme-react": "19.2",
+    "devextreme": "19.2",
+    "devexpress-gantt": "latest",
+    "devexpress-diagram": "latest"
+  },
+  "version": "0.0.0",
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
